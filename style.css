@@ -1353,11 +1353,12 @@ p {
     }
 
     #home-banner .home-banner-card-third {
-        padding: 20px;
-        border-radius: 20px;
-        top: 5%;
-        margin-bottom: 5%;
-    }
+    padding: 20px;
+    border-radius: 20px;
+    top: 5%;
+    margin-bottom: 5%;
+    height: auto;
+}
 
     #home-banner .home-banner-card-third img.blog-logo {
         margin-bottom: 13%;
@@ -1788,6 +1789,7 @@ p {
         border-radius: 20px;
         top: 5%;
         margin-bottom: 5%;
+        height: auto;
     }
 
     #home-banner .home-banner-card-third img.blog-logo {
