@@ -299,7 +299,6 @@ p {
     position: relative;
     top: 10%;
     margin-bottom: 6%;
-    height: 90%;
     text-align: center;
 }
 
@@ -695,7 +694,7 @@ p {
     border: 1px solid rgba(74, 74, 74, 0.3);
     padding: 30px;
     position: sticky;
-    top: 6%;
+    top: 10%;
 }
 
 #credentials .credentials-left-side img {
@@ -978,6 +977,26 @@ p {
 #project .modalsecond {
     top: 20%;
     left: -8%;
+}
+
+#project .web-link-btn {
+    margin-top: 10px;
+}
+
+#project .web-link-btn a {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 14px;
+    border-radius: 50px;
+}
+
+#project .web-link-btn a:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: 0.3s ease-in;
 }
 
 /* PROJECT PAGE CSS [END]*/
@@ -1353,12 +1372,11 @@ p {
     }
 
     #home-banner .home-banner-card-third {
-    padding: 20px;
-    border-radius: 20px;
-    top: 5%;
-    margin-bottom: 5%;
-    height: auto;
-}
+        padding: 20px;
+        border-radius: 20px;
+        top: 5%;
+        margin-bottom: 5%;
+    }
 
     #home-banner .home-banner-card-third img.blog-logo {
         margin-bottom: 13%;
@@ -1517,10 +1535,27 @@ p {
         padding: 9px;
     }
 
+    /* #project .project-text-overlay {
+        height: 80% !important;
+    } */
 
     #project .project-text h4 {
-        font-size: 15px;
-        line-height: 25px;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    #project .project-text p {
+        font-size: 9px;
+        line-height: 14px;
+    }
+
+    #project .web-link-btn {
+        margin-top: 2px;
+    }
+
+    #project .web-link-btn a {
+        padding: 5px 10px;
+        font-size: 10px;
     }
 
     /* PROJECT IMAGE GALLERY CSS */
@@ -1789,7 +1824,6 @@ p {
         border-radius: 20px;
         top: 5%;
         margin-bottom: 5%;
-        height: auto;
     }
 
     #home-banner .home-banner-card-third img.blog-logo {
@@ -1970,6 +2004,16 @@ p {
     #project .project-text h4 {
         font-size: 15px;
         line-height: 25px;
+    }
+
+    #project .project-text p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #project .web-link-btn a {
+        padding: 6px 12px;
+        font-size: 14px;
     }
 
     /* PROJECT IMAGE GALLERY CSS */
