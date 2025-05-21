@@ -1572,6 +1572,11 @@ p {
         width: 94%;
     }
 
+    #project img.project-image-sec {
+    height: 8rem;
+    object-fit: cover;
+}
+
     /* PROJECT IMAGE GALLERY CSS */
 
     /* WORK PAGE CSS [END] */
@@ -2120,8 +2125,3 @@ p {
 }
 
 /* TABLET MEDIA SCREEN CSS [END] */
-
-#project img.project-image-sec {
-    height: 8rem;
-    object-fit: cover;
-}
