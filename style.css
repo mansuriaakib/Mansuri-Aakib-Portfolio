@@ -2120,3 +2120,8 @@ p {
 }
 
 /* TABLET MEDIA SCREEN CSS [END] */
+
+#project img.project-image-sec {
+    height: 8rem;
+    object-fit: cover;
+}
