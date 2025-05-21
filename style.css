@@ -1033,6 +1033,7 @@ p {
     height: 100%;
     margin-top: 8%;
     text-align: center;
+    cursor: pointer;
 }
 
 #service .service-card i {
