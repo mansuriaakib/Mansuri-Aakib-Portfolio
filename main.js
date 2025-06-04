@@ -2,7 +2,7 @@
 
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 1500);
+}, 500);
 
 // PAGE PRE-LOADER JS[END]
 
