@@ -43,7 +43,7 @@ p {
 }
 
 .animate__animated.animate__fadeInUp {
-    --animate-duration: 4s;
+    --animate-duration: 2s;
 }
 
 /* PRE-LOADAER PAGE CSS [START] */
@@ -915,7 +915,7 @@ p {
 }
 
 #project .project-img-overlay:hover .project-text-overlay {
-    height: 90%;
+    height: calc(100% - 24px);
 }
 
 #project .project-text {
@@ -1032,8 +1032,8 @@ p {
     padding: 20px;
     height: 100%;
     margin-top: 8%;
-    text-align: center;
     cursor: pointer;
+    text-align: center;
 }
 
 #service .service-card i {
@@ -1374,12 +1374,12 @@ p {
     }
 
     #home-banner .home-banner-card-third {
-    padding: 20px;
-    border-radius: 20px;
-    top: 5%;
-    margin-bottom: 5%;
-    height: auto;
-}
+        padding: 20px;
+        border-radius: 20px;
+        top: 5%;
+        margin-bottom: 5%;
+        height: auto;
+    }
 
     #home-banner .home-banner-card-third img.blog-logo {
         margin-bottom: 13%;
@@ -1574,10 +1574,9 @@ p {
     }
 
     #project img.project-image-sec {
-    height: 8rem;
-    object-fit: cover;
-        width:auto;
-}
+        height: 8rem;
+        object-fit: cover;
+    }
 
     /* PROJECT IMAGE GALLERY CSS */
 
